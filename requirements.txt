@@ -1,0 +1,5 @@
+pyspark==3.5.1
+kafka-python==2.0.2
+elasticsearch==8.13.0
+pandas==2.2.2
+numpy==1.26.4

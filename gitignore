@@ -1,0 +1,26 @@
+# Environnement virtuel Python
+venv/
+.venv/
+
+# Fichiers Python générés
+__pycache__/
+*.pyc
+
+# Données : le dataset (325 Mo) dépasse la limite GitHub de 100 Mo
+# -> à télécharger depuis Kaggle (voir README)
+data/*
+!data/.gitkeep
+
+# Ancien modèle local (le modèle est désormais stocké dans HDFS)
+models/
+
+# Fichiers temporaires Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Éditeurs
+.vscode/
+.idea/
+*.csv
